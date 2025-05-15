@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="fade-in">
+    <h1>Website Feedback Survey</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="survey.html">Survey</a>
+    </nav>
+  </header>
+
+  <main class="slide-up">
+    <form class="form-container">
+      <h2>Tell Us What You Think</h2>
+
+      <label>1. How did you hear about this website?</label>
+      <label><input type="radio" name="source" value="social"> Social Media</label>
+      <label><input type="radio" name="source" value="friend"> Friend/Family</label>
+      <label><input type="radio" name="source" value="search"> Search Engine</label>
+
+      <label>2. Which features do you find most useful?</label>
+      <label><input type="checkbox" name="feature" value="design"> Design</label>
+      <label><input type="checkbox" name="feature" value="content"> Content</label>
+      <label><input type="checkbox" name="feature" value="speed"> Speed</label>
+      <label><input type="checkbox" name="feature" value="mobile"> Mobile Responsiveness</label>
+
+      <label>3. Rate your overall experience:</label>
+      <div class="rating">
+        <input type="radio" name="rating" id="star5" value="5"><label for="star5">★</label>
+        <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+        <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+        <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+        <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+      </div>
+
+      <label>4. Any suggestions or feedback?</label>
+      <textarea name="feedback" rows="4" required></textarea>
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+
+  <footer>&copy; 2025 afidhi</footer>
+</body>
+</html>
